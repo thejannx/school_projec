@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ group.group_name }}</title>
+</head>
+<body>
+    <h1>{{ group.group_name }}</h1>
+    <h3>Group Type: {{ group.group_type }}</h3>
+    <button><a href="{% url 'groups:list' %}">Back to Group List</a></button>
+</body>
+</html>

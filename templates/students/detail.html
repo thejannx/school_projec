@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ student.first_name }} {{ student.last_name }}</title>
+</head>
+<body>
+    <h1>{{ student.first_name }} {{ student.last_name }}</h1>
+    <h3>Age: {{ student.age }}</h3>
+    <h3>Email: {{ student.email }}</h3>
+    <button><a href="{% url 'students:list' %}">Back to Student List</a></button>
+</body>
+</html>
